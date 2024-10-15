@@ -1,0 +1,40 @@
+/.env
+/.env.example
+# Laravel specific files
+/vendor/
+node_modules/
+public/storage
+/storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+.vagrant/
+
+# IDE specific files
+/.idea
+/.vscode
+.DS_Store
+
+# Composer specific files
+composer.lock
+
+# PHPUnit specific files
+/phpunit.xml
+/phpunit.xml.dist
+
+# Logs
+/logs/*.log
+/storage/logs/*.log
+
+# Cache files
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Backup files
+*.bak
+*.swp
+
+# Other common files
+/public
+
